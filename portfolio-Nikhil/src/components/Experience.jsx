@@ -7,14 +7,10 @@ function Experience() {
     const experiences = [
         {
             company: "Diginet Solution",
-            period: "2024-Present",
+            period: "Jan 2024-Present",
             description: "As a company specializing in MERN stack development, we deliver robust and scalable web applications using MongoDB, Express.js, React, and Node.js. Our expertise allows us to build end-to-end solutions, from intuitive frontends to powerful backend infrastructures, ensuring high performance, flexibility, and seamless user experiences for clients across industries."
         },
-        {
-            company: "Paarsh Infotech",
-            period: "jan-july 2024",
-            description: "Building visually appealing, user-friendly and intuitive UI components using React.JS."
-        }
+        
     ]
 
     return (

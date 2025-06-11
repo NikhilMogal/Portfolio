@@ -186,7 +186,7 @@ function Hero() {
 
             </div>
 
-
+{/* 
             <motion.div
 
                 initial={{ opacity: 0 }}
@@ -197,8 +197,8 @@ function Hero() {
 
             >
                 <p className='text-gray-200 mr-6  lg:text-2xl  '>My Tech Stack</p>
-                <FaHtml5 className='text-orange-600 mx-2' />
-                <FaCss3 className='text-blue-600 mx-2' />
+                <FaHtml5 className='text-orange-600  text-5xl sm:text-6xl md:text-7xl' />
+                <FaCss3 className='text-blue-600 mx-2  text-5xl sm:text-9xl md:text-9xl' />
                 <DiJavascript1 className='text-yellow-500 mx-2' />
                 <RiReactjsLine className='text-blue-500 mx-2' />
                 <RiTailwindCssFill  className='text-blue-500 mx-2'  />
@@ -206,7 +206,27 @@ function Hero() {
                 <SiExpress className='text-white mx-2' />
                 <SiMongodb className='text-green-600 mx-2' />
 
-            </motion.div>
+            </motion.div> */}
+
+
+<motion.div
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    viewport={{ once: true }}
+    transition={{ duration: 1, delay: 2 }}
+    className='flex flex-row text-5xl sm:text-6xl md:text-7xl px-12 md:px-0 w-full justify-center items-center py-24'
+>
+    <p className='text-gray-200 mr-6 text-lg sm:text-xl lg:text-2xl'>My Tech Stack</p>
+    <FaHtml5 className='text-orange-600 mx-2 text-5xl sm:text-6xl md:text-7xl' />
+    <FaCss3 className='text-blue-600 mx-2 text-5xl sm:text-6xl md:text-7xl' />
+    <DiJavascript1 className='text-yellow-500 mx-2 text-5xl sm:text-6xl md:text-7xl' />
+    <RiReactjsLine className='text-blue-500 mx-2 text-5xl sm:text-6xl md:text-7xl' />
+    <RiTailwindCssFill className='text-blue-500 mx-2 text-5xl sm:text-6xl md:text-7xl' />
+    <FaNodeJs className='text-green-500 mx-2 text-5xl sm:text-6xl md:text-7xl' />
+    <SiExpress className='text-white mx-2 text-5xl sm:text-6xl md:text-7xl' />
+    <SiMongodb className='text-green-600 mx-2 text-5xl sm:text-6xl md:text-7xl' />
+</motion.div>
+
 
             <div className='absolute inset-0 hidden md:block'>
 
