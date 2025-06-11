@@ -16,7 +16,7 @@ function App() {
  
 
   return (
-    <div className="ml-30">
+    <>
        <Navbar/>
        <Hero/>
        <Skills />
@@ -24,7 +24,7 @@ function App() {
        <Experience/>
        <Contact />
        <Footer />
-    </div>
+    </>
   )
 }
 
